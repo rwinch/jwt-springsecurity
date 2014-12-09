@@ -62,7 +62,7 @@ public class UserRestController {
 
     // Spring annotation that speaks SpEL!
     @PreAuthorize("hasRole('ADMIN')")
-    @RequestMapping(value = "/secure/allusers", produces="text/plain", method=RequestMethod.POST)
+    @RequestMapping(value = "/secure/allusers", produces="text/plain", method=RequestMethod.GET)
     public String allUsers() {
         return "A list of all users";
     }
