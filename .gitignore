@@ -1,0 +1,10 @@
+.project
+.settings
+*.iml
+*.idea
+*.classpath
+*.jasper
+*.class
+filetmp
+target
+bin
